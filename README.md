@@ -57,8 +57,8 @@ Java 17
 Node.js LTS + Angular CLI
 psql (PostgreSQL client) 
 ### Run Locally  
-## 4.1  Build and start all services docker-compose up --build 
-## 4.2. Access frontend localhost # 5.3. API endpoint localhost
+- 4.1  Build and start all services docker-compose up --build 
+- 4.2. Access frontend localhost # 5.3. API endpoint localhost
 
 ## 5. Testing
 Backend 
