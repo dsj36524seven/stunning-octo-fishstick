@@ -61,24 +61,26 @@ psql (PostgreSQL client)
 - 4.2. Access frontend localhost # 5.3. API endpoint localhost
 
 ## 5. Testing
-Backend 
+- Backend 
  
 cd backend 
 ./mvnw test 
 
-Frontend 
+- Frontend 
  
 cd frontend 
 npm test
 
 ## 6. Cloud & CI/CD (Roadmap) 
+
 - Deploy database on AWS RDS 
 - Backend container to AWS EKS (Kubernetes) 
 - Frontend hosted on AWS S3 + CloudFront 
 - Continuous Integration using GitHub Actions
 
-## 7. Future Extensions 
-- Split architecture into user‑service and order‑service microservices 
+## 7. Future Extensions
+
+- Split architecture into user‑service and order‑service microservices 
 - Add API gateway and service discovery
 - Include Terraform for infrastructure as code
 - Integrate Grafana / Prometheus monitoring
