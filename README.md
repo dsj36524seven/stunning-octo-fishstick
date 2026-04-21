@@ -72,10 +72,9 @@ cd frontend
 npm test
 
 ## 6. Cloud & CI/CD (Roadmap) 
-
-- Deploy database on AWS RDS 
-- Backend container to AWS EKS (Kubernetes) 
-- Frontend hosted on AWS S3 + CloudFront 
+- Deploy database on AWS RDS 
+- Backend container to AWS EKS (Kubernetes) 
+- Frontend hosted on AWS S3 + CloudFront 
 - Continuous Integration using GitHub Actions
 
 ## 7. Future Extensions
