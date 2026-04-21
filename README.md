@@ -26,10 +26,10 @@ I am currently deep-diving into AI/ML to complement my existing engineering back
 
 ---
 
-1. Overview
+## 1. Overview
 This repository demonstrates a production‑style reference implementation of a cloud‑native web application, built to illustrate architectural depth and hands‑on technical ability. The system features a secure RESTful backend, reactive frontend, containerized deployment, automated testing, and CI/CD integration — all provisioned for cloud execution.
 
-2. High‑Level Architecture
+## 2. High‑Level Architecture
 Stack Highlights
 
 Backend: Spring Boot (Java 17), Spring Security (JWT), JPA, Flyway, REST API
@@ -50,12 +50,15 @@ DevOps & Cloud: GitHub Actions CI/CD, AWS RDS, S3, CloudFront
 🔄 ** CI/CD Pipeline ** powered by GitHub Actions
 
 ## 4. Getting Started (Local)
-### Prerequisites
+ Prerequisites
 
 Docker & Docker Compose
 Java 17
 Node.js LTS + Angular CLI
-psql (PostgreSQL client) ### Run Locally {{bash}} # 5.1. Build and start all services docker-compose up --build # 5.2. Access frontend localhost # 5.3. API endpoint localhost
+psql (PostgreSQL client) 
+### Run Locally {{bash}} 
+## 4.1  Build and start all services docker-compose up --build 
+## 4.2. Access frontend localhost # 5.3. API endpoint localhost
 
 
 ## 5. Testing
